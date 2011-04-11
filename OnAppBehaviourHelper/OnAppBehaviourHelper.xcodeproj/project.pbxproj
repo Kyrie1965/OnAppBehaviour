@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAFDA3FB1352E08000E529FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFDA3FA1352E08000E529FA /* Cocoa.framework */; };
+		DAFDA4051352E08000E529FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAFDA4031352E08000E529FA /* InfoPlist.strings */; };
+		DAFDA4081352E08000E529FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA4071352E08000E529FA /* main.m */; };
+		DAFDA40E1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA40D1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.m */; };
+		DAFDA4201352E13700E529FA /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DAFDA41F1352E13700E529FA /* Icon.icns */; };
+		DAFDA4241352FAFE00E529FA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFDA4251352FAFE00E529FA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAFDA3F61352E08000E529FA /* OnAppBehaviourHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnAppBehaviourHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFDA3FA1352E08000E529FA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DAFDA3FD1352E08000E529FA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DAFDA3FE1352E08000E529FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DAFDA3FF1352E08000E529FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAFDA4021352E08000E529FA /* OnAppBehaviourHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnAppBehaviourHelper-Info.plist"; sourceTree = "<group>"; };
+		DAFDA4041352E08000E529FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAFDA4061352E08000E529FA /* OnAppBehaviourHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnAppBehaviourHelper-Prefix.pch"; sourceTree = "<group>"; };
+		DAFDA4071352E08000E529FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAFDA40C1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnAppBehaviourHelperAppDelegate.h; sourceTree = "<group>"; };
+		DAFDA40D1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnAppBehaviourHelperAppDelegate.m; sourceTree = "<group>"; };
+		DAFDA41F1352E13700E529FA /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		DAFDA4231352F9C200E529FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAFDA4251352FAFE00E529FA /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFDA3F31352E08000E529FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDA3FB1352E08000E529FA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAFDA3EB1352E08000E529FA = {
+			isa = PBXGroup;
+			children = (
+				DAFDA4001352E08000E529FA /* OnAppBehaviourHelper */,
+				DAFDA3F91352E08000E529FA /* Frameworks */,
+				DAFDA3F71352E08000E529FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFDA3F71352E08000E529FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA3F61352E08000E529FA /* OnAppBehaviourHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFDA3F91352E08000E529FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA3FA1352E08000E529FA /* Cocoa.framework */,
+				DAFDA3FC1352E08000E529FA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFDA3FC1352E08000E529FA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA3FD1352E08000E529FA /* AppKit.framework */,
+				DAFDA3FE1352E08000E529FA /* CoreData.framework */,
+				DAFDA3FF1352E08000E529FA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DAFDA4001352E08000E529FA /* OnAppBehaviourHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA40C1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.h */,
+				DAFDA40D1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.m */,
+				DAFDA4251352FAFE00E529FA /* MainMenu.xib */,
+				DAFDA4011352E08000E529FA /* Supporting Files */,
+			);
+			path = OnAppBehaviourHelper;
+			sourceTree = "<group>";
+		};
+		DAFDA4011352E08000E529FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA41F1352E13700E529FA /* Icon.icns */,
+				DAFDA4021352E08000E529FA /* OnAppBehaviourHelper-Info.plist */,
+				DAFDA4031352E08000E529FA /* InfoPlist.strings */,
+				DAFDA4061352E08000E529FA /* OnAppBehaviourHelper-Prefix.pch */,
+				DAFDA4071352E08000E529FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFDA3F51352E08000E529FA /* OnAppBehaviourHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFDA4141352E08100E529FA /* Build configuration list for PBXNativeTarget "OnAppBehaviourHelper" */;
+			buildPhases = (
+				DAFDA3F21352E08000E529FA /* Sources */,
+				DAFDA3F31352E08000E529FA /* Frameworks */,
+				DAFDA3F41352E08000E529FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnAppBehaviourHelper;
+			productName = OnAppBehaviourHelper;
+			productReference = DAFDA3F61352E08000E529FA /* OnAppBehaviourHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFDA3ED1352E08000E529FA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DAFDA3F01352E08000E529FA /* Build configuration list for PBXProject "OnAppBehaviourHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = DAFDA3EB1352E08000E529FA;
+			productRefGroup = DAFDA3F71352E08000E529FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFDA3F51352E08000E529FA /* OnAppBehaviourHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFDA3F41352E08000E529FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDA4051352E08000E529FA /* InfoPlist.strings in Resources */,
+				DAFDA4241352FAFE00E529FA /* MainMenu.xib in Resources */,
+				DAFDA4201352E13700E529FA /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFDA3F21352E08000E529FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDA4081352E08000E529FA /* main.m in Sources */,
+				DAFDA40E1352E08000E529FA /* OnAppBehaviourHelperAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAFDA4031352E08000E529FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAFDA4041352E08000E529FA /* en */,
+				DAFDA4231352F9C200E529FA /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAFDA4121352E08100E529FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAFDA4131352E08100E529FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAFDA4151352E08100E529FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnAppBehaviourHelper/OnAppBehaviourHelper-Prefix.pch";
+				INFOPLIST_FILE = "OnAppBehaviourHelper/OnAppBehaviourHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAFDA4161352E08100E529FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnAppBehaviourHelper/OnAppBehaviourHelper-Prefix.pch";
+				INFOPLIST_FILE = "OnAppBehaviourHelper/OnAppBehaviourHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFDA3F01352E08000E529FA /* Build configuration list for PBXProject "OnAppBehaviourHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFDA4121352E08100E529FA /* Debug */,
+				DAFDA4131352E08100E529FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFDA4141352E08100E529FA /* Build configuration list for PBXNativeTarget "OnAppBehaviourHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFDA4151352E08100E529FA /* Debug */,
+				DAFDA4161352E08100E529FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAFDA3ED1352E08000E529FA /* Project object */;
+}

@@ -1,0 +1,8 @@
+﻿"Applications" = "Applications";
+"ChooseApplication" = "Please choose an application";
+"DidLaunch" = "The application has started up";
+"DidTerminate" = "The application finishes executing";
+"DidHide" = "The Finder hid the application";
+"DidUnhide" = "The Finder unhid the application";
+"DidActivate" = "The Finder is about to activate the application";
+"DidDeactivate" = "The Finder deactivated the application";
